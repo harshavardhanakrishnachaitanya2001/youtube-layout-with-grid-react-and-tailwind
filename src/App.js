@@ -1,5 +1,5 @@
 import React from 'react'
-import VideosInGrid from './components/VideoInGrid'
+import VideosInGrid from './components/VideosInGrid'
 
 const App = () => {
   return (

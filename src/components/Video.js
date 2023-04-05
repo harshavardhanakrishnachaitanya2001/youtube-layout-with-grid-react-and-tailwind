@@ -1,10 +1,10 @@
 import React from 'react'
-import thumbnail1 from '../../src/images/thumbnail1.jpg'
 
-const Video = () => {
+const Video = ({imagesrc, title}) => {
   return (
-    <div className='p-5 shadow-sm shadow-black mx-auto'>
-      <img src={thumbnail1} alt=''/>
+    <div className='p-5'>
+      <img src={imagesrc} alt='' className='w-[100%] rounded-lg'/>
+      <h3 className='font-bold text-xl'>{title}</h3>
     </div>
   )
 }
