@@ -3,7 +3,7 @@ import uploader1 from '../images/uploader1.jpg'
 
 const Video = ({imagesrc, title}) => {
   return (
-    <div className='ml-80 w-326 h-183'>
+    <div className='w-326 h-183'>
       <img src={imagesrc} alt='' className='rounded-lg w-[100%] p-5'/>
       <div className='flex gap-2'>
         <div className='ml-5'>
