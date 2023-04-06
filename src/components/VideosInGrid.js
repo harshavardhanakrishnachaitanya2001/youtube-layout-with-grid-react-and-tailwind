@@ -12,15 +12,12 @@ import shortimage from '../../src/images/shortimage.jpg'
 import gojosatoru from '../../src/images/th.webp'
 import lightyagami from '../../src/images/lightyagami.webp'
 import eren from '../../src/images/eren.webp'
-import Navbar from './Navbar'
+
 
 const VideosInGrid = () => {
   return (
   <>
-    <div className='flex'>
       <SideBar/>
-      <Navbar />
-    </div>
     <div className='flex gap-4 justify-start items-start'>
       
       <div className='flex flex-wrap mt-24 mx-40'>

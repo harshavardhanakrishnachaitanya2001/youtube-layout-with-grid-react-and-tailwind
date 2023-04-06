@@ -2,17 +2,20 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='fixed'>
-        <ul className='flex gap-2 bg-gray-100'>
-            <li>All</li>
-            <li>All</li>
-            <li>All</li>
-            <li>All</li>
-            <li>All</li>
-            <li>All</li>
-            <li>All</li>
-        </ul>
+    <div className='flex justify-center'>
+    <nav className='fixed cursor-pointer bg-'>
+       <ul className='flex gap-2 justify-center'>
+            <li className='bg-gray-100 p-2'>All</li>
+            <li className='bg-gray-100 p-2'>Gaming</li>
+            <li className='bg-gray-100 p-2'>Mixes</li>
+            <li className='bg-gray-100 p-2'>Lions</li>
+            <li className='bg-gray-100 p-2'>Wildlife</li>
+            <li className='bg-gray-100 p-2'>Tamil Cinema</li>
+            <li className='bg-gray-100 p-2'>Music</li>
+            <li className='bg-gray-100 p-2'>Live</li>
+        </ul> 
     </nav>
+    </div>
   )
 }
 
