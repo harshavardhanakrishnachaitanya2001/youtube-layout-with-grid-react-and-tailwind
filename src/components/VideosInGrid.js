@@ -7,6 +7,7 @@ import anyaforger from '../../src/images/anyaforger.jpg'
 import bleach from '../../src/images/bleach.jpg'
 import midoriay from '../../src/images/midoriay.jpg'
 import tanjiro from '../../src/images/tanjiro.jpg'
+import shortimage from '../../src/images/shortimage.jpg'
 
 const VideosInGrid = () => {
   return (
@@ -17,7 +18,7 @@ const VideosInGrid = () => {
         <p className='hover:bg-gray-100 py-5 px-4 w-80 rounded-lg'>shorts</p>
         <p className='hover:bg-gray-100 py-5 px-4 w-80 rounded-lg'>Subscriptions</p>
       </div>
-      <div className='flex flex-wrap mt-24'>
+      <div className='flex flex-wrap mt-24 gap-3'>
         <Video imagesrc={thumbnail1} title="Naruto"/>
         <Video imagesrc={inuyasha} title="Inuyasha"/>
         <Video imagesrc={kenshin} title="Kenshin Himura"/>
@@ -25,6 +26,7 @@ const VideosInGrid = () => {
         <Video imagesrc={bleach} title="Ichigo kurasaki"/>
         <Video imagesrc={midoriay} title="Midoriya izuku"/>
         <Video imagesrc={tanjiro} title="Tanjiro"/>
+        <Video imagesrc={shortimage} title="shortimage"/>
         <Video />
         <Video />
         <Video />
