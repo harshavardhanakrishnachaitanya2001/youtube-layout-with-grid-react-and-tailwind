@@ -10,13 +10,13 @@ import shortimage from '../../src/images/shortimage.jpg'
 const VideosInGrid = () => {
   return (
   <>
-    <div className='flex gap-4 justify-start items-start flex-wrap '>
+    <div className='flex gap-4 justify-start items-start'>
       <div className='flex flex-col border-b-2 border-gray-100'>
         <p className='hover:bg-gray-100 py-5 px-4 w-80 rounded-lg'>Home</p>
         <p className='hover:bg-gray-100 py-5 px-4 w-80 rounded-lg'>shorts</p>
         <p className='hover:bg-gray-100 py-5 px-4 w-80 rounded-lg'>Subscriptions</p>
       </div>
-      <div className='flex flex-wrap space-x-4'>
+      <div className='flex flex-wrap space-x-4 mt-24'>
         <Video imagesrc={thumbnail1} title="Naruto"/>
         <Video imagesrc={inuyasha} title="Inuyasha"/>
         <Video imagesrc={kenshin} title="Kenshin Himura"/>
