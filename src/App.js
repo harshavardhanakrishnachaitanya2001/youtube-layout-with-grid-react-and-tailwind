@@ -4,7 +4,9 @@ import VideosInGrid from './components/VideosInGrid'
 const App = () => {
   return (
     <div>
-      <h1 className='font-bold text-center p-5 text-4xl'>Youtube layout</h1>
+      <div className='w-full text-center'>
+        <input type="text" className='text-md border py-2 rounded-full px-5 my-2 w-96' placeholder='search' />
+      </div>
       <div>
         <VideosInGrid /> 
       </div>
