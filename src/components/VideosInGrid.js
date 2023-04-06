@@ -5,7 +5,8 @@ import inuyasha from '../../src/images/inuyasha.jpg'
 import kenshin from '../../src/images/kenshin.jpg'
 import anyaforger from '../../src/images/anyaforger.jpg'
 import bleach from '../../src/images/bleach.jpg'
-import shortimage from '../../src/images/shortimage.jpg'
+import midoriay from '../../src/images/midoriay.jpg'
+import tanjiro from '../../src/images/tanjiro.jpg'
 
 const VideosInGrid = () => {
   return (
@@ -22,8 +23,9 @@ const VideosInGrid = () => {
         <Video imagesrc={kenshin} title="Kenshin Himura"/>
         <Video imagesrc={anyaforger} title="Anya Forger"/>
         <Video imagesrc={bleach} title="Ichigo kurasaki"/>
-        <Video/>
-        <Video />
+        <Video imagesrc={midoriay} title="Midoriya izuku"/>
+        <Video imagesrc={tanjiro} title="Tanjiro"/>
+        
         <Video />
         <Video />
         <Video />
