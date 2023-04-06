@@ -3,8 +3,8 @@ import uploader1 from '../images/uploader1.jpg'
 
 const Video = ({imagesrc, title}) => {
   return (
-    <div className='bg-contain'>
-      <img src={imagesrc} alt='' className ={'rounded-lg w-[360px] h-[203px] p-5'}/>
+    <div>
+      <img src={imagesrc} alt='' className ='rounded-lg w-[360px] h-[203px] p-5 object-cover'/>
       <div className='flex gap-2'>
         <div className='ml-5'>
           <img src={uploader1} alt='' className='w-[36px] h-[36px] rounded-full'/>
