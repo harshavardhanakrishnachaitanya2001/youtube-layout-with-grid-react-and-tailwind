@@ -11,11 +11,11 @@ const App = () => {
           <input type="text" className='w-1/2 text-md border py-2 rounded-full px-5 my-2' placeholder='search' />
           <Navbar />
         </div> 
-        
         <SideBar />
       </div>
       <div>
         <VideosInGrid />
+        
       </div>
     </div>
   )

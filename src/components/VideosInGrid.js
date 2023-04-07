@@ -7,7 +7,7 @@ import anyaforger from '../../src/images/anyaforger.jpg'
 import bleach from '../../src/images/bleach.jpg'
 import midoriay from '../../src/images/midoriay.jpg'
 import tanjiro from '../../src/images/tanjiro.jpg'
-import shortimage from '../../src/images/shortimage.jpg'
+import saitama from '../../src/images/saitama.jpg'
 import gojosatoru from '../../src/images/gojosatoru.jpg'
 import lightyagami from '../../src/images/lightyagami.jpg'
 import eren from '../../src/images/eren.jpg'
@@ -27,7 +27,7 @@ const VideosInGrid = () => {
         <Video imagesrc={bleach} title="Ichigo kurasaki" uploader="Bhargav Ponnapalli" views="20M"/>
         <Video imagesrc={midoriay} title="Midoriya izuku" uploader="Rahul Tech" views="50K"/>
         <Video imagesrc={tanjiro} title="Tanjiro" uploader="Kishore Krishnamurty" views="1M"/>
-        <Video imagesrc={shortimage} title="shortimage" uploader="Agent Boby" views="2"/>
+        <Video imagesrc={saitama} title="shortimage" uploader="Agent Boby" views="2"/>
         <Video imagesrc={gojosatoru} title="Gojo Satoru" uploader="Mark Twain" views="40k"/>
         <Shorts />
         <Video imagesrc={lightyagami} title="Light Yagami" uploader = "KC codes" views="20K"/>
