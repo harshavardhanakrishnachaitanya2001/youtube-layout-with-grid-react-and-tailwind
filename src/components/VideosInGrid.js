@@ -12,6 +12,7 @@ import shortimage from '../../src/images/shortimage.jpg'
 import gojosatoru from '../../src/images/gojosatoru.jpg'
 import lightyagami from '../../src/images/lightyagami.jpg'
 import eren from '../../src/images/eren.jpg'
+import goku from '../../src/images/goku.jpg'
 
 
 const VideosInGrid = () => {
@@ -28,12 +29,12 @@ const VideosInGrid = () => {
         <Video imagesrc={anyaforger} title="Anya Forger" uploader="Aravind Ganagavarapu" views="10K"/>
         <Video imagesrc={bleach} title="Ichigo kurasaki" uploader="Bhargav Ponnapalli" views="20M"/>
         <Video imagesrc={midoriay} title="Midoriya izuku" uploader="Rahul Tech" views="50K"/>
-        
         <Video imagesrc={tanjiro} title="Tanjiro" uploader="Kishore Krishnamurty" views="1M"/>
         <Video imagesrc={shortimage} title="shortimage" uploader="Agent Boby" views="2"/>
         <Video imagesrc={gojosatoru} title="Gojo Satoru" uploader="Mark Twain" views="40k"/>
         <Video imagesrc={lightyagami} title="Light Yagami" uploader = "KC codes" views="20K"/>
         <Video imagesrc={eren} title="Eren jegar" uploader="Let's Anime" views="32.1K"/>
+        <Video imagesrc={goku} title="Son Goku" uploader="Let's Anime" views="33.1K"/>
         <Video />
       </div>
     </div>
