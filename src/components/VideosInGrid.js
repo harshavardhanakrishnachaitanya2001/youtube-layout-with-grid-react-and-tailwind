@@ -1,5 +1,4 @@
 import React from 'react'
-import SideBar from './SideBar'
 import Video from './Video'
 import thumbnail1 from '../../src/images/thumbnail1.jpg'
 import inuyasha from '../../src/images/inuyasha.jpg'
@@ -13,16 +12,14 @@ import gojosatoru from '../../src/images/gojosatoru.jpg'
 import lightyagami from '../../src/images/lightyagami.jpg'
 import eren from '../../src/images/eren.jpg'
 import goku from '../../src/images/goku.jpg'
+import Shorts from './Shorts'
 
 
 const VideosInGrid = () => {
   return (
   <>
-      <SideBar/>
-    <div className='flex gap-4 justify-start items-start'>
-      
-      <div className='flex flex-wrap w-screen gap-2 mt-24 mx-40 overflow-hidden'>
-        
+    <div className='flex gap-4'>
+      <div className='flex flex-wrap gap-2 mt-24 mx-40 overflow-hidden'>
         <Video imagesrc={thumbnail1} title="Naruto" uploader="Siddharth Ponnapalli" views="5M"/>
         <Video imagesrc={inuyasha} title="Inuyasha" uploader="Harsha" views="2K"/>
         <Video imagesrc={kenshin} title="Kenshin Himura" uploader="Mahima" views="4M"/>
@@ -32,10 +29,10 @@ const VideosInGrid = () => {
         <Video imagesrc={tanjiro} title="Tanjiro" uploader="Kishore Krishnamurty" views="1M"/>
         <Video imagesrc={shortimage} title="shortimage" uploader="Agent Boby" views="2"/>
         <Video imagesrc={gojosatoru} title="Gojo Satoru" uploader="Mark Twain" views="40k"/>
+        <Shorts />
         <Video imagesrc={lightyagami} title="Light Yagami" uploader = "KC codes" views="20K"/>
         <Video imagesrc={eren} title="Eren jegar" uploader="Let's Anime" views="32.1K"/>
         <Video imagesrc={goku} title="Son Goku" uploader="Let's Anime" views="33.1K"/>
-        <Video />
       </div>
     </div>
   </>
