@@ -9,9 +9,9 @@ import bleach from '../../src/images/bleach.jpg'
 import midoriay from '../../src/images/midoriay.jpg'
 import tanjiro from '../../src/images/tanjiro.jpg'
 import shortimage from '../../src/images/shortimage.jpg'
-import gojosatoru from '../../src/images/th.webp'
-import lightyagami from '../../src/images/lightyagami.webp'
-import eren from '../../src/images/eren.webp'
+import gojosatoru from '../../src/images/gojosatoru.jpg'
+import lightyagami from '../../src/images/lightyagami.jpg'
+import eren from '../../src/images/eren.jpg'
 
 
 const VideosInGrid = () => {
@@ -20,7 +20,7 @@ const VideosInGrid = () => {
       <SideBar/>
     <div className='flex gap-4 justify-start items-start'>
       
-      <div className='flex flex-wrap mt-24 mx-40'>
+      <div className='flex flex-wrap w-screen gap-2 mt-24 mx-40 overflow-hidden'>
         
         <Video imagesrc={thumbnail1} title="Naruto" uploader="Siddharth Ponnapalli" views="5M"/>
         <Video imagesrc={inuyasha} title="Inuyasha" uploader="Harsha" views="2K"/>
