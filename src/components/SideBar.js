@@ -7,7 +7,7 @@ const SideBar = () => {
         <div className='sm:flex flex-col fixed border-gray-100'>
             {
                 options.map((option) => (
-                    <p className='hover:bg-gray-100 cursor-pointer w-1 lg:py-2 lg:px-2 xl:py-5 xl:px-4 xl:w-40 h-14 rounded-lg' key={option}>{option}</p>
+                    <p className='hover:bg-gray-100 cursor-pointer w-auto lg:py-2 lg:px-2 xl:py-5 xl:px-4 xl:w-40 h-14 rounded-lg' key={option}>{option}</p>
                 ))
             }
         </div>
