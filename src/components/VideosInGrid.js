@@ -18,7 +18,7 @@ import Shorts from './Shorts'
 const VideosInGrid = () => {
   return (
   <>
-    <div className='flex gap-4'>
+    <div className='flex gap-4 over'>
       <div className='lg:flex flex-wrap gap-2 mt-24 mx-auto lg:mx-40 overflow-hidden'>
         <Video imagesrc={thumbnail1} title="Naruto" uploader="Siddharth Ponnapalli" views="5M"/>
         <Video imagesrc={inuyasha} title="Inuyasha" uploader="Harsha" views="2K"/>
