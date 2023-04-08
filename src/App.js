@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className='h-full'>
       <div className='mx-auto w-full fixed bg-white'>
-        <div className='text-center w-10 md:w-auto'>
+        <div className='text-center w-full'>
           <input type="text" className='w-1/2 text-md border py-2 rounded-full px-5 my-2' placeholder='search' />
           <Navbar />
         </div> 
