@@ -19,7 +19,7 @@ const VideosInGrid = () => {
   return (
   <>
     <div className='flex gap-4'>
-      <div className='flex flex-wrap gap-2 mt-24 mx-40 overflow-hidden'>
+      <div className='lg:flex flex-wrap gap-2 mt-24 mx-auto lg:mx-40 overflow-hidden'>
         <Video imagesrc={thumbnail1} title="Naruto" uploader="Siddharth Ponnapalli" views="5M"/>
         <Video imagesrc={inuyasha} title="Inuyasha" uploader="Harsha" views="2K"/>
         <Video imagesrc={kenshin} title="Kenshin Himura" uploader="Mahima" views="4M"/>

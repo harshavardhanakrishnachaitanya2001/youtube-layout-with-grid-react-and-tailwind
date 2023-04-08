@@ -6,8 +6,8 @@ import VideosInGrid from './components/VideosInGrid'
 const App = () => {
   return (
     <div className='h-full'>
-      <div className='w-full fixed bg-white'>
-        <div className='text-center'>
+      <div className='mx-auto w-full fixed bg-white'>
+        <div className='text-center w-10 md:w-auto'>
           <input type="text" className='w-1/2 text-md border py-2 rounded-full px-5 my-2' placeholder='search' />
           <Navbar />
         </div> 
@@ -15,7 +15,6 @@ const App = () => {
       </div>
       <div>
         <VideosInGrid />
-        
       </div>
     </div>
   )

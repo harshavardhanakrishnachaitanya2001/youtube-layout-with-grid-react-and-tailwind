@@ -24,10 +24,10 @@ import uploader1 from '../images/uploader1.jpg'
 const Video = ({imagesrc, title,uploader, views}) => {
   return (
     <div className='mt-10'>
-      <div className="w-[360px]">
+      <div className="w-auto mx-auto lg:w-[360px]">
         <img src={imagesrc} alt='' className ='rounded-lg h-full mx-auto bg-gray-100'/>
       </div>
-      <div className='flex gap-2 mt-1'>
+      <div className='flex gap-2 mt-1 ml-7 sm:ml-52 lg:ml-auto'>
         <div>
           <img src={uploader1} alt='' className='w-[36px] h-[36px] rounded-full'/>
         </div>
