@@ -19,7 +19,7 @@ import Shorts from './Shorts'
 const VideosInGrid = () => {
   return (
   <>
-      <div className=' grid grid-cols-1 py-24 md:py-32  md:grid-cols-[1fr,1fr] lg:grid-cols-[370px,370px,370px] justify-center gap-y-20 overflow-hidden'>
+      <div className=' grid grid-cols-[360px] py-24 md:py-32  md:grid-cols-[370px,370px] lg:grid-cols-[370px,370px,370px] justify-center gap-y-20 overflow-hidden'>
         <Video imagesrc={thumbnail1} title="Naruto" uploader="Siddharth Ponnapalli" views="5M"/>
         <Video imagesrc={inuyasha} title="Inuyasha" uploader="Harsha" views="2K"/>
         <Video imagesrc={kenshin} title="Kenshin Himura" uploader="Mahima" views="4M"/>
