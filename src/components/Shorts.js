@@ -4,28 +4,28 @@ import shortimage from '../images/shortimage.jpg'
 
 const Shorts = () => {
   return (
-    <div className='h-[5%] lg:h-auto flex p-2 space-x-4'>
-        <div className='w-full'>
-            <img src={shesshomaru} alt="" className='h-full w-[100%]'/>
+    <div className='grid grid-cols-6 w-full p-2 gap-4'>
+        <div>
+            <img src={shesshomaru} alt="" className='h-full w-full md:w-auto'/>
             <p>Hello</p>
         </div>
-        <div className='w-full '>
-            <img src={shortimage} alt="" className='h-full w-[100%]'/>
+        <div>
+            <img src={shortimage} alt="" className='h-full w-full md:w-auto'/>
             <p>Hello</p>
         </div>
-        <div className='w-full'>
+        <div>
             <img src={shortimage} alt="" className='h-full' />
             <p>Hello</p>
         </div>
-        <div className='w-full'>
+        <div>
             <img src={shortimage} alt="" className='h-full' />
             <p>Hello</p>
         </div>
-        <div className='w-full'>
+        <div>
             <img src={shortimage} alt="" className='h-full' />
             <p>Hello</p>
         </div>
-        <div className='w-full'>
+        <div>
             <img src={shortimage} alt="" className='h-full' />
             <p>Hello</p>
         </div>
