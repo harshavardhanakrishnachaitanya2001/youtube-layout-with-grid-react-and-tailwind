@@ -8,7 +8,7 @@ import SideBar from './components/SideBar'
 const App = () => {
   
   return (
-    <div className='h-screen'>
+    <div>
       <div className='mx-auto w-screen fixed bg-white'>
         <div className='text-center w-full h-full'>
           <input type="text" className='w-1/2 text-md border py-2 rounded-full px-5 my-2' placeholder='search' />
