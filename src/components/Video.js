@@ -28,7 +28,7 @@ const Video = ({imagesrc, title,uploader, views}) => {
       <div className='w-[360px] h-[180px] mx-auto'>
 
         {/* Image */}
-          <img src={imagesrc} alt='' className =' px-7 md:px-0 rounded-lg object-cover bg-gray-100 w-full h-full'/>
+          <img src={imagesrc} alt='' className =' px-7 md:px-0 rounded-lg object-cover w-full h-full'/>
        
         {/* UPloader info */}
         <div className='flex space-x-2 py-1 px-7 md:px-0'>

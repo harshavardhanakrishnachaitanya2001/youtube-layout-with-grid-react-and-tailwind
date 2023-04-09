@@ -8,7 +8,7 @@ const SideBar = () => {
                     <RxHamburgerMenu onClick={() => setDisplaySidebar(!displaySidebar)} />
                     {
                         displaySidebar &&(
-                            <div className='bg-slate-100 md:bg-white flex space-y-8 mx-2 md:space-y-10 lg:space-y-0 justify-center flex-col fixed'>
+                            <div className='hidden lg:grid lg:grid-cols-1 lg:gap-0 lg:justify-center fixed'>
                         {
                             options.map((option) => (
                             <p className=' hover:bg-gray-100 cursor-pointer lg:py-2 lg:px-2 xl:py-5 xl:px-4 xl:w-40 rounded-lg' key={option}>{option}</p>
